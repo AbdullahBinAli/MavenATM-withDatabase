@@ -194,23 +194,7 @@ public class ATMMBANK {
         
     }    
 
-        public static double  getConnection5(double Balance)throws Exception{
-            double money = 0;
-        try{
-            Connection con5 = getConnection();
-            PreparedStatement ps5 = con5.prepareStatement("Select Balance from UserCard where UserAccountID = 2222");
-            ResultSet rs5 = ps5.executeQuery();
-            
-            while(rs5.next()){
-                  money =rs5.getInt("Balance");
-                
-                System.out.println("Balance = = = "+ money);
-            }
-            
-          
-        }catch(Exception e){System.out.println(e);}
-        return money;
-    } 
+
 
     public static void getConnection6(double amount)throws Exception{
         final double money3 = amount;
