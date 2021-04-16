@@ -47,7 +47,7 @@ public class AdminBankAccount {
                             int adid= reader.nextInt();
                             System.out.println("Enter User Account Pin");
                             int adpin= reader.nextInt();
-                            UserBankAccount User5 = new UserBankAccount(5555,55);
+                            UserBankAccount User5 = new UserBankAccount(adid,adpin);
                             getConnection11(adid ,adpin);
                            break;
                        case 4 :
