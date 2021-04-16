@@ -193,7 +193,17 @@ public class ATMMBANK {
         }catch(Exception e){System.out.println(e);}
         
     }    
-
+    public static double  getConnection5(double Balance)throws Exception{
+            double money = 0;
+        try{
+            Connection con5 = getConnection();
+            PreparedStatement ps5 = con5.prepareStatement("update UserCard set balance ="+Balance+" where UserAccountID =2222;");
+            ps5.executeUpdate();
+            
+            
+        }catch(Exception e){System.out.println(e);}
+        return money;
+    } 
 
 
     public static void getConnection6(double amount)throws Exception{
