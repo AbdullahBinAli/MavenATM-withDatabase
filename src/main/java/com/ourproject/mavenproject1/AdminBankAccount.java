@@ -27,7 +27,7 @@ public class AdminBankAccount {
               
                if(Admincode == AdminPin){
               System.out.println("Correct Pin");
-              int enter='\0';
+              int enter;
                        System.out.println("1.Delete a sepesific account");
                        System.out.println("2.show all accounts");
                        System.out.println("3. to create user Account ");
