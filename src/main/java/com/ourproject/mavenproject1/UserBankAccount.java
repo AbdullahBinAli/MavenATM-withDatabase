@@ -1,7 +1,6 @@
 package com.ourproject.mavenproject1;
 
 
-import static com.ourproject.mavenproject1.ATMMBANK.getConnection5;
 import static com.ourproject.mavenproject1.ATMMBANK.getConnection6;
 import static com.ourproject.mavenproject1.ATMMBANK.getConnection7;
 import static com.ourproject.mavenproject1.ATMMBANK.getConnection8;
@@ -26,7 +25,7 @@ public class UserBankAccount {
         
         balance =this.balance;
         
-        getConnection5(balance);
+        
         return balance;
     }
     
