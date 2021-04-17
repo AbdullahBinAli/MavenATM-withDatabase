@@ -78,7 +78,12 @@ public class ATMMBANK {
                        System.out.println("\n");
                        break;
                   
-                   case 4:
+                      case 5:
+                       System.out.println("==================== ");
+                       user.getHistoryTransaction1();
+                       System.out.println("==================== ");
+                       break;
+                        case 4:
                        System.out.println("==================== ");
                        System.out.println(" choose an account to transfer to  ");
                        System.out.println("==================== ");
@@ -117,11 +122,6 @@ public class ATMMBANK {
                            
                             break;
                     }
-                      case 5:
-                       System.out.println("==================== ");
-                       user.getHistoryTransaction1();
-                      
-                       System.out.println("==================== ");
                       case 6:
                        System.out.println("******************** ");
                        break;
